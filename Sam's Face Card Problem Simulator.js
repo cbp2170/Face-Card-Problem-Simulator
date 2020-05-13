@@ -75,9 +75,8 @@ var numFlipped = 1
 var data = 0
 var shufflesTried = 0
 var cont = true
-var numToTry = 5000000
 
-for (i = 0; i < numToTry; i++) {
+for (i = 0; i < 5000000; i++) {
   numFlipped = 1
   cont = true
   shuffle(deck)
